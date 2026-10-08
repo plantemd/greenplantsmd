@@ -90,7 +90,8 @@ input:focus-visible, select:focus-visible, .btn:focus-visible, .icon:focus-visib
 }
 .photo-field{ grid-column:span 2; }
 .photo-row{ display:flex; gap:10px; align-items:center; }
-.photo-row input[type=file]{ display:none; }
+.photo-row input[type=file]{ position:absolute; width:1px; height:1px; opacity:0; overflow:hidden; }
+.photo-row label.btn{ margin:0; color:var(--text); font-size:15px; white-space:nowrap; }
 .preview{
     width:46px; height:46px; flex-shrink:0;
     border-radius:10px; object-fit:cover; background:var(--line);
@@ -213,7 +214,7 @@ input:focus-visible, select:focus-visible, .btn:focus-visible, .icon:focus-visib
                         <img class="preview" id="aPreview" alt="">
                         <input type="text" id="aPhoto" placeholder="ex: ginkgo.png" required>
                         <input type="file" id="aFile" accept="image/*">
-                        <button class="btn" type="button" id="pickBtn">Alege poza</button>
+                        <label class="btn" for="aFile" tabindex="0" id="pickBtn">Alege poza</label>
                     </div>
                 </div>
                 <div>
@@ -346,13 +347,14 @@ listEl.addEventListener('click', (e) => {
 $('q').addEventListener('input', render);
 
 // ===== ADAUGĂ PLANTĂ =====
-$('pickBtn').addEventListener('click', () => $('aFile').click());
+$('pickBtn').addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); $('aFile').click(); } });
 
 $('aFile').addEventListener('change', (e) => {
     const file = e.target.files[0];
     if (!file) return;
     $('aPhoto').value = file.name;
     $('aPreview').src = URL.createObjectURL(file);
+    toast('Am completat numele pozei. Urc-o și pe GitHub, lângă index.html.');
 });
 
 $('aPhoto').addEventListener('input', (e) => { $('aPreview').src = e.target.value; });
