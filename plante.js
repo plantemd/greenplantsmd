@@ -44,7 +44,7 @@ const PLANTE = [
     ["Afin Siberian", "50-100 lei", "afinsib.png", "fructe"],
     ["Arțar Japonez", "1000-1500 lei", "artarrosu.png", "ornamentale"],
     ["Arțar Alb", "250-500 lei", "artar.png", "ornamentale"],
-    ["Sakura", "250-500 lei", "sakurapl.png", "ornamentale"],
+    ["Sakura", "350-500 lei", "sakurapl.png", "ornamentale"],
     ["Liliac", "1500-2000 lei", "liliac.png", "ornamentale"],
     ["Hakura Nisiki", "250-500 lei", "hakura.png", "ornamentale"],
 ];
