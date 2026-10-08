@@ -22,7 +22,7 @@ const PLANTE = [
     ["Tuia Smaragd", "150-300 lei", "tuia.png", "conifere"],
     ["Glicinia Alba", "300 lei", "glicinia.png", "ornamentale"],
     ["Catalpa Nana", "300 lei", "catalpa.png", "ornamentale"],
-    ["Sakura", "250 lei", "sakura.png", "ornamentale"],
+    ["Sakura", "350 lei", "sakura.png", "ornamentale"],
     ["Camelia pe Picior", "1000 lei", "camelia.png", "ornamentale"],
     ["Camelia Tufă", "600 lei", "camelia1.png", "ornamentale"],
     ["Trandafir pe Picior", "250 lei", "trandafir.png", "ornamentale"],
