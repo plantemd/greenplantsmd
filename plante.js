@@ -1,19 +1,18 @@
 // =====================================================
-//  LISTA DE PLANTE – aici adaugi / ștergi / modifici stocul
+//  LISTA DE PLANTE – generat din admin.html
 //
-//  Format (o linie = o plantă):
-//  ["Nume", "Preț", "poza.png", "categorie"],
-//
+//  Format: ["Nume", "Preț", "poza.png", "categorie", "etichetă (opțional)"],
 //  Categorii: ornamentale | conifere | pomi | fructe
-//
-//  Opțional, la sfârșit, poți adăuga o etichetă:
-//  ["Ginkgo", "200 lei", "ginkgo.png", "ornamentale", "nou"],
-//  ["Brad Albastru", "300 lei", "brad.png", "conifere", "epuizat"],
-//
+//  Etichete: nou | epuizat
 //  Planta de sus apare prima pe site.
 // =====================================================
 
 const PLANTE = [
+    ["Artar Norvegian", "500lei", "artarnorvegi.png", "ornamentale", "nou"],
+    ["Artar Argintiu", "500lei", "klenalb.png.jpg", "ornamentale", "nou"],
+    ["Artar Rosu", "500lei", "klenros.png.jpg", "ornamentale", "nou"],
+    ["Gortenzie", "250-300", "gortenzie.png.jpg", "ornamentale", "nou"],
+    ["Gortenzie Alba", "250-300lei", "gortenziealb.png.jpg", "ornamentale", "nou"],
     ["Agut Plingator", "250 lei", "agut.jpg", "ornamentale"],
     ["Blue Arow", "250 lei", "bluearow.png", "conifere"],
     ["Tuia Danica", "180-250 lei", "thuja d.png", "conifere"],
