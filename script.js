@@ -1,3 +1,24 @@
+// ===== AFIȘARE PLANTE (din plante.js) =====
+const productContainer = document.getElementById('productContainer');
+
+function esc(text) {
+    return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+}
+
+productContainer.innerHTML = PLANTE.map(([nume, pret, poza, cat, eticheta]) => {
+    const epuizat = eticheta === 'epuizat';
+    const badge = eticheta === 'nou' ? 'Nou' : epuizat ? 'Stoc epuizat' : '';
+    return `
+        <article class="product${epuizat ? ' sold-out' : ''}" data-cat="${esc(cat)}">
+            ${badge ? `<span class="badge">${badge}</span>` : ''}
+            <img src="${esc(poza)}" alt="${esc(nume)}" loading="lazy">
+            <div class="info">
+                <h3>${esc(nume)}</h3>
+                <p class="price">${esc(pret)}</p>
+            </div>
+        </article>`;
+}).join('');
+
 // ===== NAVBAR: umbră la scroll =====
 const nav = document.getElementById('nav');
 
@@ -58,7 +79,7 @@ function closeLightbox() {
 }
 
 // Delegare: funcționează pentru toate pozele, inclusiv cele adăugate mai târziu
-document.getElementById('productContainer').addEventListener('click', (e) => {
+productContainer.addEventListener('click', (e) => {
     if (e.target.matches('.product img')) openLightbox(e.target);
 });
 
