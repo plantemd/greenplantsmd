@@ -8,7 +8,7 @@
 // =====================================================
 
 const PLANTE = [
-    ["Artar Norvegian", "500lei", "artarnorvegi.png", "ornamentale", "nou"],
+    ["Artar Norvegian", "550lei", "artarnorvegi.png", "ornamentale", "nou"],
     ["Artar Argintiu", "500lei", "klenalb.png.jpg", "ornamentale", "nou"],
     ["Artar Rosu", "500lei", "klenros.png.jpg", "ornamentale", "nou"],
     ["Gortenzie", "250-300", "gortenzie.png.jpg", "ornamentale", "nou"],
