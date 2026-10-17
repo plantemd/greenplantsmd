@@ -8,9 +8,12 @@
 // =====================================================
 
 const PLANTE = [
+    ["Castan Comestibil", "200-250leo", "poza-mvcgfw8a.jpg", "fructe", "nou"],
+    ["Poamă Moldova", "50lei", "poza-mvcgegr6.jpg", "pomi", "nou"],
+    ["Mure", "50lei", "poza-mvcg7hyu.jpg", "fructe", "nou"],
     ["Artar Norvegian", "500lei", "artarnorvegi.png", "ornamentale", "nou"],
     ["Artar Argintiu", "500lei", "klenalb.png.jpg", "ornamentale", "nou"],
-    ["Artar Rosu", "500lei", "klenros.png.jpg", "ornamentale", "nou"],
+    ["Artar Canadian", "500lei", "klenros.png.jpg", "ornamentale", "nou"],
     ["Gortenzie", "250-300", "gortenzie.png.jpg", "ornamentale", "nou"],
     ["Gortenzie Alba", "250-300lei", "gortenziealb.png.jpg", "ornamentale", "nou"],
     ["Agut Plingator", "300 lei", "agut.jpg", "ornamentale"],
