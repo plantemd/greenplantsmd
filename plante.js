@@ -8,6 +8,8 @@
 // =====================================================
 
 const PLANTE = [
+    ["Poamă Moldova", "50lei", "poza-mve1yzly.jpg", "pomi", "nou"],
+    ["Symphoricarpos (tufă cu bobițe de zăpadă)", "100lei", "poza-mve1yich.jpg", "ornamentale", "nou"],
     ["Castan Comestibil", "200-250lei", "poza-mvcgfw8a.jpg", "fructe", "nou"],
     ["Poamă Prezentabilă ", "50lei", "poza-mvcgegr6.jpg", "pomi", "nou"],
     ["Mure", "50lei", "poza-mvcg7hyu.jpg", "fructe", "nou"],
