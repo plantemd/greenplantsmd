@@ -8,7 +8,7 @@
 // =====================================================
 
 const PLANTE = [
-    ["Castan Comestibil", "200-250leo", "poza-mvcgfw8a.jpg", "fructe", "nou"],
+    ["Castan Comestibil", "200-250lei", "poza-mvcgfw8a.jpg", "fructe", "nou"],
     ["Poamă Prezentabilă ", "50lei", "poza-mvcgegr6.jpg", "pomi", "nou"],
     ["Mure", "50lei", "poza-mvcg7hyu.jpg", "fructe", "nou"],
     ["Artar Norvegian", "500lei", "artarnorvegi.png", "ornamentale", "nou"],
