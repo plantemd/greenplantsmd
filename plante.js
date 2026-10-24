@@ -39,7 +39,7 @@ const PLANTE = [
     ["Mere, Pere, Caise, Cireș, etc.", "50 lei", "copacifruct.png", "pomi"],
     ["Granat", "150-300 lei", "granat.png", "pomi"],
     ["Rododendron", "150-400 lei", "rododendron.png", "ornamentale"],
-    ["Mesteacăn (Berioză)", "150-300 lei", "berioza.png", "ornamentale"],
+    ["Mesteacăn (Berioză)", "200-300 lei", "berioza.png", "ornamentale"],
     ["Malina Glen Ample", "20 lei", "malina.png", "fructe"],
     ["Coacăza Titania", "30-50 lei", "smorodina.png", "fructe"],
     ["Agriș", "50 lei", "agris.png", "fructe"],
